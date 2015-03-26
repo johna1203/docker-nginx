@@ -1,4 +1,4 @@
-FROM johna1203/debian:latest
+FROM johna1203/docker-debian:latest
 MAINTAINER Johnathan Froeming <johnathan@kodokux.com>
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ABF5BD827BD9BF62 && \
 	echo "deb http://www.nginx.org/packages/debian/ wheezy nginx" > /etc/apt/sources.list.d/nginx.list && \
