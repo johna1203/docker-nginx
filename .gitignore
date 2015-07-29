@@ -1,0 +1,3 @@
+/etc/nginx/certs/*.crt
+/etc/nginx/certs/*.key
+/etc/nginx/certs/*.pem
